@@ -1,0 +1,21 @@
+name: ejson_analyzer
+description: >-
+  Common analysis code for EJSON packages.
+
+  BSON is a binary format used to store JSON-like documents efficiently.
+  EJSON extends JSON defining how all BSON types should be represented in JSON.
+
+version: 0.4.0
+repository: https://github.com/realm/realm-dart/ejson/packages/ejson_analyzer
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  analyzer: ^6.0.0
+  ejson_annotation: ^0.4.0
+  source_gen: ^1.3.2
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.21.0
